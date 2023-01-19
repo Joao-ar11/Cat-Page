@@ -16,14 +16,44 @@ a {
     color: currentColor;
 }
 
-.header {
-    padding: 20px;
+.header, .banner {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
+}
+
+.header {
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
+}
+
+.banner {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
 }
 
 .logo {
