@@ -54,6 +54,25 @@ a {
     text-align: end;
 }
 
+.sign-up {
+    margin: 100px 250px;
+    padding: 30px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up p {
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+.sign-up button {
+    border: 2px solid white;
+}
+
 h1 {
     color: #F9FAF8;
     font-size: 48px;
@@ -65,13 +84,18 @@ p {
     margin-top: 5px;
 }
 
-button {
-    padding: 10px 30px;
-    background-color: #3882F6;
+h3, button {
     color: #E5E7EB;
     font-weight: bold;
     border: 0;
+    margin-bottom: 5px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 30px;
     border-radius: 10px;
+    background-color: #3882F6;
 }
 
 h2 {
