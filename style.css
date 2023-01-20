@@ -39,6 +39,21 @@ a {
     gap: 30px;
 }
 
+.quote {
+    padding: 100px 200px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+#quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: end;
+}
+
 h1 {
     color: #F9FAF8;
     font-size: 48px;
@@ -71,7 +86,7 @@ body p {
     align-self: center;
 }
 
-.images{
+.images {
     align-items: stretch;
 }
 
@@ -92,7 +107,7 @@ body p {
     max-width: 400px;
 }
 
- a img{
+a img {
     margin: 0 auto;
     max-width: 200px;
     max-height: 200px;
@@ -100,4 +115,4 @@ body p {
     border-radius: 15px;
     display: block;
     flex: none;
-    }
+}
